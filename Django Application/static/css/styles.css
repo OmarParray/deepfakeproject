@@ -3,7 +3,8 @@ body {
 }
 .bg {
     /* The image used */
-    background-image: url("/static/images/background1.png");
+    background-image: url("/static/images/bckgrnd4.jpeg");
+    height: 100%;
   
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,6 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 
 }
@@ -20,7 +22,61 @@ body {
 section{
     padding-top: 60px;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #092c48; /* Adjust as needed */
+  }
+  
+  .navbar a {
+    color: #ffff; /* Adjust as needed */
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .navbar a:hover {
+    color: blue;
+  }
+  
+  .navbar-center {
+    flex: 1; /* Fills remaining space */
+    text-align: center;
+  }
+  
+  .navbar-heading {
+    color: #ffff;
+    font-size: 20px; /* Adjust as needed */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+  }
+  
 
+.deepfake-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px; /* Adjust height as needed */
+    background-color: #23272b; /* Adjust background color if needed */
+    visibility: hidden;
+  }
+  
+  .deepfake-heading {
+    font-family: "Roboto Condensed", sans-serif; /* Choose your preferred font */
+    font-size: 28px; /* Adjust font size as needed */
+    color: #fff; /* Adjust text color if needed */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  .detection-text {
+    font-weight: bold;
+    color: #f26c4f; /* Adjust accent color if needed */
+  }
+  
 .width-300{
     width: 300px;
     margin: auto;
@@ -34,7 +90,10 @@ section{
     padding: 20px;
     margin-top: 80px;
     margin-bottom: 150px;
-    box-shadow: 0 0px 9px 2px #ccc;
+    margin-left: 650px;
+    box-shadow: 0 0px 9px 2px #17316e;
+    background-color: #17a2eb;
+    border-radius: 10px;
 }
 
 .width-500{
